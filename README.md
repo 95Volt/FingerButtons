@@ -1,4 +1,4 @@
-# FingerButtons
+# FingerButtons - WIP!
 FingerButtons is an implementation of the ESP32 BLE Mouse library on a ESP32-WROOM-32D Board. The main use is for VR applications, e.g. flight simulators, to control buttons in the VR environment. The idea came from [roosterhands](https://github.com/sielu-rooster/roosterhands).
 The roosterhands author uses a Espruino (JS) implementation. Since the better availability of cheap ESP32-WROOM boards I chose to adapt the idea using a ESP32-WROOM and Arduino.
 
@@ -24,7 +24,7 @@ The button base is, for now, a cutted out breadboard. Ordinary and cheap microsw
 
 
 ## Future
-There is still some work to do for a immersive VR experience. 7
+There is still some work to do for a immersive VR experience.
 In Progress:
 - Unfortunately, X-Plane resets the mouse pointer when moving the head even slightly.
 - The moving mouse pointer while flying is sometimes annoying. A solution would be to hide the mouse pointer when it's not in use.
